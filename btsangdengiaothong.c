@@ -4,7 +4,6 @@
 
 #define  SER PIN_D0
 #define  SCK PIN_D1
-#define  RCK PIN_D2
 
 #define X1_X2 0X11
 #define V1_D2 0X14
@@ -43,7 +42,7 @@ void main() {
     set_tris_c(0x00);
 
     while (true) {
-        // TR?NG THÁI X1_D2
+        // TR?NG THï¿½I X1_D2
         output_c(X1_X2);
         DEM1 = TG_XANH;
         DEM2 = TG_DO;
@@ -54,7 +53,7 @@ void main() {
             DEM2--;
         } while (DEM1 != 255);
 
-        // TR?NG THÁI V1_D2
+        // TR?NG THï¿½I V1_D2
         output_c(V1_D2);
         DEM1 = TG_VANG;
         do {
@@ -64,7 +63,7 @@ void main() {
             DEM2--;
         } while (DEM1 != 255);
 
-        // TR?NG THÁI D1_X2
+        // TR?NG THï¿½I D1_X2
         output_c(D1_X2);
         DEM1 = TG_DO;
         DEM2 = TG_XANH;
@@ -75,7 +74,7 @@ void main() {
             DEM2--;
         } while (DEM2 != 255);
 
-        // TR?NG THÁI D1_V2
+        // TR?NG THï¿½I D1_V2
         output_c(D1_V2);
         DEM2 = TG_VANG;
         do {
