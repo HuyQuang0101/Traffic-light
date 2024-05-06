@@ -4,6 +4,8 @@
 
 #define  SER PIN_D0
 #define  SCK PIN_D1
+#define  RCK PIN_D2
+
 
 #define X1_X2 0X11
 #define V1_D2 0X14
