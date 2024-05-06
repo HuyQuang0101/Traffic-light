@@ -1,0 +1,17 @@
+[PROJECT]
+Target=btsangdengiaothong.hex
+Processor_Text=PIC16F887
+CCSVersion=5.115
+Compiler=PCM
+[Target Data]
+FileList=btsangdengiaothong.c
+[btsangdengiaothong.c]
+Type=4
+[mru-list]
+1=btsangdengiaothong.c
+[Units]
+Count=1
+1=btsangdengiaothong (main)
+
+[defines]
+buildcount=1

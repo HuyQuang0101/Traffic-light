@@ -1,0 +1,51 @@
+
+ROM used:   444/8192 (5%)
+            444/8192 (5%) including unused fragments
+
+            0.5 Average locations per line
+            8.9 Average locations per statement
+
+RAM used:   26/368 (7%) at main() level
+            33/368 (9%) worst case
+
+Stack used: 2 worst case (2 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   89    50 100  btsangdengiaothong.c
+  810     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\16f887.h
+----- -----
+  899    50 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     20   5    1   1121 10.1  @delay_ms1
+0     32   7    3    227  5.5  XUAT_1BYTE
+0     21   5    4    188  2.4  XUAT_4LED_7DOAN
+0    346  78    4   1574  5.9  MAIN
+0     21   5    3             @DIV88
+ Inline         0     43  2.1  @cinit1
+
+Program metrics:
+    Functions               5
+    Statements              50
+    Comments                139
+    Volume (V)              4060
+    Difficulty (D)          25.9
+    Effort to implement (E) 105266
+    Time to implement (T)   1 hours, 37 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   13
+    Maintainability (MI)    146
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   440  1604  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
